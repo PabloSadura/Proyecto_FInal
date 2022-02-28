@@ -2,3 +2,31 @@
   width: 100%;
   height: $card-size;
 }
+
+.card-new {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: 0.75 ease;
+}
+.card-img {
+  width: 100vh;
+  height: 50vh;
+  position: relative;
+  transition: 0.7 ease;
+  &:hover {
+    transform: scale(10px, 10px);
+  }
+}
+
+.card-img-overlay {
+  font-size: 15px;
+  color: white;
+  opacity: 0;
+  position: relative;
+  transition: 0.8s ease;
+  &:hover {
+    background-color: black;
+    opacity: 1;
+  }
+}

@@ -4,6 +4,7 @@
 }
 
 .lupa {
+  overflow: hidden;
   -webkit-transition: 0.75s ease;
   transition: 0.75s ease;
 }
@@ -24,14 +25,71 @@
 }
 
 .text-img:hover {
-  -webkit-transform: translate(0, -280px);
-          transform: translate(0, -280px);
+  -webkit-transform: translate(0, -480px);
+          transform: translate(0, -480px);
   opacity: 0.7;
   height: 300vh;
 }
 
+.gradiant_down {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b8b7b7), to(#f0f0f0));
+  background-image: linear-gradient(#b8b7b7, #f0f0f0);
+}
+
+.gradiant_up {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#b8b7b7));
+  background-image: linear-gradient(#f0f0f0, #b8b7b7);
+}
+
 .cards_size {
   width: 100%;
-  height: 60vh;
+  height: 80vh;
+}
+
+.card-new {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: 0.75 ease;
+  transition: 0.75 ease;
+}
+
+.card-img {
+  width: 100vh;
+  height: 50vh;
+  position: relative;
+  -webkit-transition: 0.7 ease;
+  transition: 0.7 ease;
+}
+
+.card-img:hover {
+  -webkit-transform: scale(10px, 10px);
+          transform: scale(10px, 10px);
+}
+
+.card-img-overlay {
+  font-size: 15px;
+  color: white;
+  opacity: 0;
+  position: relative;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.card-img-overlay:hover {
+  background-color: black;
+  opacity: 1;
+}
+
+.fondo_general {
+  background-color: #f0f0f0;
+}
+
+.redes {
+  color: gray;
+}
+
+.redes:hover {
+  color: #dadada;
 }
 /*# sourceMappingURL=Style.css.map */
