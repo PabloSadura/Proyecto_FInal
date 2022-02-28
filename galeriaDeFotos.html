@@ -4,111 +4,517 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <!--Font de Google Font-->
+
+    <!-- CDN Iconos Boothstrap -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,700&display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
-    <!--Font de FontAwesome-->
+    <!-- CSS only -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <title>Anime FanStore</title>
   </head>
   <body>
-    <header>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-1 header"
+    >
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <a href="index.html "
-              ><img class="img_logo" src="imagenes/logo.jpg" alt=""
-            /></a>
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="Imagenes/logo.jpg"
+            alt=""
+            class="card rouded-1 m-1"
+            width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="galeriaDeFotos.html">Galería</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="elbar.html">El Bar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="h1 my-5 text-center text-decoration-underline">Galería</div>
+      </div>
+      <div class="container">
+        <div class="row mb-5">
+
+    
+<!-- 1ra Seccion -->
+<div class="col-md-6 col-lg-4">
+  <div
+    id="carouselExampleControls"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="Imagenes/Galeria/Capitan/captain-america_marvel_gallery_5c4cf2c00616c.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Capitan/captain-america_marvel_gallery_5c4cf2d79022e.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Capitan/captain-america_marvel_gallery_5c4cf2fb43899.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Capitan/captain-america_marvel_gallery_5c4cf3a2ce25d.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- 2da Seccion -->
+<div class="col-md-6 col-lg-4">
+  <div
+    id="carouselExampleControls2"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="Imagenes/Galeria/Thanos/thanos-classic-version_marvel_gallery_60b68773bac4d.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Thanos/thanos-classic-version_marvel_gallery_60b68775d4bf9.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Thanos/thanos-classic-version_marvel_gallery_60b6877634c9f.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Thanos/thanos-classic-version_marvel_gallery_60b6878fca37e.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls2"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls2"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- 3ra Seccion -->
+<div class="col-md-6 col-lg-4">
+  <div
+    id="carouselExampleControls3"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="Imagenes/Galeria/Court/oglavaeil-dreadsbane-enforcer_court-of-the-dead_gallery_60341b055dd3a.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Court/oglavaeil-dreadsbane-enforcer_court-of-the-dead_gallery_60341a772dd0c.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Court/oglavaeil-dreadsbane-enforcer_court-of-the-dead_gallery_60341a791e323.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Court/oglavaeil-dreadsbane-enforcer_court-of-the-dead_gallery_60341a79711a1.jpg "
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls3"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls3"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- 4ta Seccion -->
+<div class="col-md-6 col-lg-4">
+  <div
+    id="carouselExampleControls4"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="Imagenes/Galeria/Raiden/MortalKombat_Raiden_Gallery_01__74518.1627484977-e1630359051482.png"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Raiden/MortalKombat_Raiden_Gallery_03__40120.1627484964.png"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Raiden/MortalKombat_Raiden_Gallery_04__72534.1627484978.png"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item card">
+        <img
+          src="Imagenes/Galeria/Raiden/MortalKombat_Raiden_Gallery_06__30316.1627484953.png "
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls4"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls4"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- 5ta Seccion -->
+<div class="col-md-6 col-lg-4">
+  <div
+    id="carouselExampleControls5"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="Imagenes/Galeria/Bane/bane_dc-comics_gallery_609c0ae9c8fe8.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Bane/bane_dc-comics_gallery_609c0ae97a55f.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Bane/bane_dc-comics_gallery_609c0ae86f76a.jpeg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item card">
+        <img
+          src="Imagenes/Galeria/Bane/bane_dc-comics_gallery_609c0ae817db6.jpeg "
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls5"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls5"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- 6ta Seccion -->
+<di v class="col-md-6 col-lg-4">
+  <div
+    id="carouselExampleControls6"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="Imagenes/Galeria/Spider/iron-spider-man_marvel_gallery_5c4bdb9c04e5e.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Spider/iron-spider-man_marvel_gallery_5c4bdb9fb6540.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Imagenes/Galeria/Spider/iron-spider-man_marvel_gallery_5c4bdbcc62884.jpg"
+          class="d-block w-100 card"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item card">
+        <img
+          src="Imagenes/Galeria/Spider/iron-spider-man_marvel_gallery_5c4bdbcff3c44.jpg "
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls6"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls6"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</div>
+</div>
+         
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="shadow-lg py-2" >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sx-12 col-md-6 col-lg-4">
+            <div class="h4 text-decoration-underline text-center">
+              Contactos
+            </div>
+            <div class="fs-6">
+              <span class="text-decoration-underline">Telefono:</span> +54 9
+              3492 609679
+            </div>
+            <div class="fs-6">
+              <span class="text-decoration-underline">Dirección</span> Saavedra
+              185, Rafaela, Santa Fe
+            </div>
+            <div class="fs-6">
+              <span class="text-decoration-underline"
+                >Horarios de Atención</span
+              >
+              08:30 - 12:00 / 17:30 - 21:00
+            </div>
           </div>
-          <div class="col">
-            <ul class="list">
-              <li><a class="list_items" href="index.html">Inicio</a></li>
-              <li>
-                <a class="list_items" href="galeriaDeFotos.html">Galeria</a>
-              </li>
-              <li><a class="list_items" href="elBar.html">El Bar</a></li>
-              <li>
-                <a class="list_items" href="contacto.html">Contactenos</a>
-              </li>
-              <li><a class="list_items" href="nosotros.html">Nosotros</a></li>
-            </ul>
+          <div class="col-sx-12 col-md-6 col-lg-4 text-center py-1">
+            <iframe
+              class="rounded"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7751634868077!2d-61.4920692853117!3d-31.25464689557358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae4824277803%3A0x34acb85582affec1!2sSaavedra%20185%2C%20S2300%20Rafaela%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1645648268235!5m2!1ses!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
           </div>
-          <div class="col redes">
-            <a href="https://www.facebook.com/animefanstore.ok/" target="_blank"
-              ><img class="img_header" src="imagenes/facebook.png" alt=""
-            /></a>
+          <div class="col-auto">
+            <p class="text-end py-1">Seguinos en:</p>
+          </div>
+          <div class="col-auto">
             <a
-              href="https://www.instagram.com/animefanstore.ok/?fbclid=IwAR0Z5CGK6YB3zvuGW4Y6Jn_IXYrtt2EsdOfj4fsDBbKZnAFD1MbQzIOR6YQ"
+              href="https://www.instagram.com/animefanstore.ok/?fbclid=IwAR1WhK3_lNh_Nol2NAeheSWJhjKtJ98u48cAF9x7CzGOmCiO6OU7ktGJ6u4  "
               target="_blank"
-              ><img class="img_header" src="imagenes/instagram.png" alt=""
-            /></a>
+              ><i class="bi bi-instagram h3 px-2 redes"></i
+            ></a>
+            <a href="https://www.facebook.com/animefanstore.ok" target="_blank">
+              <i class="bi bi-facebook h3 px-2 redes"></i
+            ></a>
+          </div>
+        </div>
+        <div class="row border-top">
+          <div class="text-center">
+            <p class="fs-6 py-1">
+              © 2022 Anime FanStore, C2300 Rafaela, Santa Fe. Argentina.
+            </p>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section>
-        <article><h2 class="title title-shadow">Galería</h2></article>
-      </section>
-      <section class="container grid">
-        <ul class="marcas">
-          <li class="separacion"><h3>Marcas</h3></li>
-          <li class="separacion">Asmus</li>
-          <li class="separacion">Bioworld</li>
-          <li class="separacion">Blitzway</li>
-          <li class="separacion">Chronicles</li>
-          <li class="separacion">Diamond</li>
-          <li class="separacion">DC Collectibles</li>
-          <li class="separacion">Kotobukiya</li>
-          <li class="separacion">Factory Entertainment</li>
-          <li class="separacion">Gantaku Anime</li>
-          <li class="separacion">Gentle Giant</li>
-          <li class="separacion">Hasbro</li>
-          <li class="separacion">Hollywood Collectibles</li>
-          <li class="separacion">Hot Toys</li>
-          <li class="separacion">Icon Heroes</li>
-          <li class="separacion">Marvel</li>
-        </ul>
-
-        <img
-          class="img-galeria"
-          id="img--5"
-          src="imagenes/Galeria/iron-captain.jpg"
-          alt=""
-        />
-        <img
-          class="img-galeria"
-          id="img--2"
-          src="imagenes/Galeria/thanos-modern-version_marvel_gallery_60b6880b36d99.jpeg"
-          alt=""
-        />
-        <img
-          class="img-galeria"
-          id="img--3"
-          src="imagenes/Galeria/MarvelFeatured.jpg"
-          alt=""
-        />
-        <img
-          class="img-galeria"
-          id="img--4"
-          src="imagenes/Galeria/thanos-on-space-throne_marvel_gallery_5d65c643b8fc2.jpg"
-          alt=""
-        />
-      </section>
-    </main>
-    <footer>
-      <div class="row">
-        <p>© 2022 Anime FanStore, C2300 Rafaela, Santa Fe. Argentina.</p>
-      </div>
     </footer>
+     <!-- JavaScript Bundle with Popper -->
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+     crossorigin="anonymous"
+   ></script>
   </body>
 </html>
