@@ -1,0 +1,20 @@
+.lupa {
+  transition: 0.75s ease;
+  &:hover {
+    z-index: 1;
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.text-img {
+  color: white;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  transition: 0.75s ease;
+  &:hover {
+    transform: translate(0, -280px);
+    opacity: 0.7;
+    height: 300vh;
+  }
+}
