@@ -5,8 +5,8 @@
 
 .lupa {
   overflow: hidden;
-  -webkit-transition: 0.75s ease;
-  transition: 0.75s ease;
+  -webkit-transition: 0.65s ease;
+  transition: 0.65s ease;
 }
 
 .lupa:hover {
@@ -43,7 +43,7 @@
 
 .cards_size {
   width: 100%;
-  height: 80vh;
+  height: 60vh;
 }
 
 .card-new {

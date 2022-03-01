@@ -1,6 +1,6 @@
 .cards_size {
   width: 100%;
-  height: $card-size;
+  height: $card-size * 0.6;
 }
 
 .card-new {
@@ -10,8 +10,8 @@
   transition: 0.75 ease;
 }
 .card-img {
-  width: 100vh;
-  height: 50vh;
+  width: $card-size;
+  height: $card-size/2;
   position: relative;
   transition: 0.7 ease;
   &:hover {
