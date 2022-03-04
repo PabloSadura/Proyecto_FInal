@@ -46,6 +46,10 @@
   height: 60vh;
 }
 
+.text_card {
+  font-size: 1.8vh;
+}
+
 .card-new {
   height: 100%;
   overflow: hidden;
@@ -83,6 +87,16 @@
 
 .fondo_general {
   background-color: #f0f0f0;
+}
+
+.btn_color {
+  color: white;
+  background-color: #b8b7b7;
+  font-size: 3vh;
+}
+
+.btn_color:hover {
+  background-color: gray;
 }
 
 .redes {

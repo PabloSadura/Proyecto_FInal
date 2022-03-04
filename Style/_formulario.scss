@@ -1,0 +1,8 @@
+.btn_color {
+  color: white;
+  background-color: $color_extremo;
+  font-size: 3vh;
+  &:hover {
+    background-color: gray;
+  }
+}

@@ -3,6 +3,10 @@
   height: $card-size * 0.6;
 }
 
+.text_card {
+  font-size: $text_card;
+}
+
 .card-new {
   height: 100%;
   overflow: hidden;
