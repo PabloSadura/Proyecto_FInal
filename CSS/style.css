@@ -3,18 +3,6 @@
   font-family: "Roboto Mono", monospace;
 }
 
-.lupa {
-  overflow: hidden;
-  -webkit-transition: 0.65s ease;
-  transition: 0.65s ease;
-}
-
-.lupa:hover {
-  z-index: 1;
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-}
-
 .text-img {
   color: white;
   background-color: black;
