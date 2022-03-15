@@ -1,12 +1,3 @@
-// .lupa {
-//   overflow: hidden;
-//   transition: 0.65s ease;
-//   &:hover {
-//     z-index: 1;
-//     transform: scale(1.2, 1.2);
-//   }
-// }
-
 .text-img {
   color: white;
   background-color: black;
@@ -25,4 +16,18 @@
 }
 .gradiant_up {
   background-image: linear-gradient($color_body, $color_extremo);
+}
+
+.btn-wsp {
+  width: 10vh;
+  height: 10vh;
+  animation: ring 0.5s linear infinite alternate;
+}
+@keyframes ring {
+  form {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
 }
