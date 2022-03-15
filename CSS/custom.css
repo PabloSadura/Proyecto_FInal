@@ -11990,8 +11990,8 @@ fieldset:disabled .btn {
 }
 
 .btn-wsp {
-  width: 10vh;
-  height: 10vh;
+  width: 7vh;
+  height: 7vh;
   -webkit-animation: ring 0.5s linear infinite alternate;
           animation: ring 0.5s linear infinite alternate;
 }
